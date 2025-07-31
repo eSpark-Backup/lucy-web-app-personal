@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Hide the Next.js "N" fast refresh indicator */
+[data-nextjs-dev-overlay] {
+  display: none !important;
+}
